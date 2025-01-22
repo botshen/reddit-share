@@ -1,7 +1,7 @@
 import type { PlasmoCSConfig } from "plasmo"
 
 export const config: PlasmoCSConfig = {
-  matches: ["*://*.v2ex.com/t/*"],
+  matches: ["*://*.reddit.com/*"],
   all_frames: true,
   run_at: "document_end"
 }

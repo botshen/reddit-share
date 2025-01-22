@@ -171,7 +171,7 @@ export default function DeltaFlyerPage() {
         })
 
         setLoadingloadingDownload(false)
-        download(dataUrl, "v2ex.png")
+        download(dataUrl, "reddit.png")
       } catch (error) {
         console.error("下载图片失败:", error)
         setLoadingloadingDownload(false)

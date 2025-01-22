@@ -1,8 +1,8 @@
 {
-  "name": "v2ex-share",
-  "displayName": "v2ex share",
+  "name": "reddit-share",
+  "displayName": "reddit share",
   "version": "1.0.5",
-  "description": "一个能让你分享高大上的分享V2ex的工具！",
+  "description": "一个能让你分享高大上的分享reddit的工具！",
   "author": "botshen",
   "scripts": {
     "dev": "plasmo dev",
@@ -45,9 +45,8 @@
   },
   "manifest": {
     "host_permissions": [
-      "*://*.v2ex.com/*",
-      "https://*.imgur.com/*"
-    ],
+      "*://*.reddit.com/*"
+     ],
     "permissions": [
       "activeTab",
       "tabs"
