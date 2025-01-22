@@ -1,7 +1,7 @@
 {
   "name": "reddit-share",
   "displayName": "reddit share",
-  "version": "1.0.5",
+  "version": "0.0.1",
   "description": "一个能让你分享高大上的分享reddit的工具！",
   "author": "botshen",
   "scripts": {
