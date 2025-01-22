@@ -245,7 +245,7 @@ export default function DeltaFlyerPage() {
             <span className="text-sm">显示正文</span>
           </div>
         )}
-        {postscripts.length > 0 && (
+        {postscripts?.length > 0 && (
           <div className="flex items-center gap-2">
             <input
               className="w-4 h-4 text-gray-800 bg-gray-700 border-gray-600 rounded"
@@ -256,7 +256,7 @@ export default function DeltaFlyerPage() {
             <span className="text-sm">显示附言</span>
           </div>
         )}
-        {comments.length > 0 && (
+        {comments?.length > 0 && (
           <div className="flex items-center gap-2">
             <input
               className="w-4 h-4 text-gray-800 bg-gray-700 border-gray-600 rounded"
@@ -267,7 +267,7 @@ export default function DeltaFlyerPage() {
             <span className="text-sm">显示评论</span>
           </div>
         )}
-        {comments.length > 0 && (
+        {comments?.length > 0 && (
           <div className="flex items-center gap-2">
             <input
               className="w-4 h-4 text-gray-800 bg-gray-700 border-gray-600 rounded"
@@ -432,10 +432,10 @@ export default function DeltaFlyerPage() {
               contentEditable={!previewMode}
             />
           )}
-          {showSubPost && postscripts.length > 0 && (
+          {showSubPost && postscripts?.length > 0 && (
             <SubPost postscripts={postscripts} />
           )}
-          {showComments && comments.length > 0 && (
+          {showComments && comments?.length > 0 && (
             <CommentsSection
               comments={comments}
               previewMode={previewMode}
